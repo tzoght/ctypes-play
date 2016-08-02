@@ -9,4 +9,6 @@ void pass_array(char** props);
 
 int multiply_by_two(int num);
 
+int populate_string(char* buffer, int size);
+
 #endif //LIB_H_H

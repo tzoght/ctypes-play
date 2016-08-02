@@ -22,3 +22,15 @@ void pass_array(char** props) {
     curr = curr+1;
   }
 }
+
+/**
+ * Assumes you have allocated
+ */
+int populate_string(char* buffer, int size) {
+  if (size > 6) {
+    strcpy(buffer,"Hello");
+    return 1; // true
+  } else {
+    return 0 ; // false
+  }
+}
